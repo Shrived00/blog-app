@@ -1,4 +1,4 @@
-zconst mongoose = require("mongoose")
+const mongoose = require("mongoose")
 
 const MONGO_URI = 'mongodb+srv://shrivedkakde00:shrived00@cluster0.l5x7cmf.mongodb.net/?retryWrites=true&w=majority'
 const connectDB = async () => {
