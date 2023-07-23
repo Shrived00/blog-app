@@ -1,9 +1,9 @@
 zconst mongoose = require("mongoose")
 
-
+const MONGO_URI = 'mongodb+srv://shrivedkakde00:shrived00@cluster0.l5x7cmf.mongodb.net/?retryWrites=true&w=majority'
 const connectDB = async () => {
     try {
-        const conn = await mongoose.connect(process.env.MONGO_URI, {
+        const conn = await mongoose.connect(MONGO_URI, {
 
             useUnifiedTopology: true,
 
